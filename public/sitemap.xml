@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://adnanaturals.com/</loc>
+    <lastmod>2023-05-22T08:00:00+00:00</lastmod>
+    <priority>1.00</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <!-- Products page -->
+  <url>
+    <loc>https://adnanaturals.com/products</loc>
+    <lastmod>2023-05-20T08:00:00+00:00</lastmod>
+    <priority>0.90</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <!-- About page -->
+  <url>
+    <loc>https://adnanaturals.com/about</loc>
+    <lastmod>2023-05-18T08:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+
+
+  <!-- Contact page -->
+  <!-- <url>
+    <loc>https://adnanaturals.com/contact</loc>
+    <lastmod>2023-05-15T08:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+    <changefreq>monthly</changefreq>
+  </url> -->
+
+  <!-- Baby Care Tips page -->
+  <url>
+    <loc>https://adnanaturals.com/babycare-tips</loc>
+    <lastmod>2023-05-19T08:00:00+00:00</lastmod>
+    <priority>0.85</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <!-- Blessings page -->
+  <url>
+    <loc>https://adnanaturals.com/blessings</loc>
+    <lastmod>2023-05-19T08:00:00+00:00</lastmod>
+    <priority>0.70</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <!-- Why Choose Us page -->
+  <url>
+    <loc>https://adnanaturals.com/why</loc>
+    <lastmod>2023-05-18T08:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <!-- Individual product pages -->
+  <!-- These would ideally be generated dynamically based on your product inventory -->
+  <url>
+    <loc>https://adnanaturals.com/product/001</loc>
+    <lastmod>2023-05-20T08:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://adnanaturals.com/product/002</loc>
+    <lastmod>2023-05-20T08:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <!-- Policy pages -->
+  <!-- <url>
+    <loc>https://adnanaturals.com/privacy-policy</loc>
+    <lastmod>2023-04-10T08:00:00+00:00</lastmod>
+    <priority>0.50</priority>
+    <changefreq>yearly</changefreq>
+  </url> -->
+
+  <!-- <url>
+    <loc>https://adnanaturals.com/return-policy</loc>
+    <lastmod>2023-04-10T08:00:00+00:00</lastmod>
+    <priority>0.50</priority>
+    <changefreq>yearly</changefreq>
+  </url> -->
+
+</urlset> 

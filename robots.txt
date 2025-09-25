@@ -1,0 +1,27 @@
+User-agent: *
+
+Disallow: /wp-admin/
+Disallow: /cgi-bin/
+Disallow: /cart/
+Disallow: /checkout/
+Disallow: /my-account/
+Disallow: /add-to-cart
+Disallow: /?add-to-cart=*
+Disallow: /*add-to-cart=*
+Disallow: /?s=*
+Disallow: /*?s=*
+Disallow: /?post_type=product&s=*
+Disallow: /*?orderby=*
+Disallow: /*?filter_*
+Disallow: /*?min_price=*
+Disallow: /*?max_price=*
+Disallow: /*?rating_filter=*
+Disallow: /*?sku=*
+Disallow: /*?compare=*
+Disallow: /*?wishlist=*
+
+Allow: /
+Allow: /wp-admin/admin-ajax.php
+Allow: /wp-content/uploads/
+
+https://adnanaturals.com/sitemap.xml

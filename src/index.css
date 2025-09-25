@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+.montserrat-bold {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: bold;
+}
+
+/* Basic MDX content styles */
+.mdx-content h1 {
+  font-size: 2rem;
+  font-weight: 800;
+  margin: 1.5rem 0 1rem;
+}
+.mdx-content h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 1.25rem 0 0.75rem;
+}
+.mdx-content h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 1rem 0 0.5rem;
+}
+.mdx-content p {
+  font-size: 1rem;
+  line-height: 1.75;
+  color: #1f2937;
+  margin: 0.75rem 0;
+}
+.mdx-content ul, .mdx-content ol {
+  margin: 0.75rem 0 0.75rem 1.25rem;
+}
+.mdx-content li { 
+  margin: 0.25rem 0; 
+}
+.mdx-content strong { 
+  font-weight: 700; 
+}
+
+.btn {
+  font-size: 14px;
+  background: transparent;
+  border: none;
+  padding: 1em 1.5em;
+  color: rgb(254, 254, 254);
+  text-transform: uppercase;
+  position: relative;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+.btn::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0;
+  background-color: #ffc4009a;
+  transition: 0.5s ease;
+}
+
+.btn:hover {
+  color: #ffffff;
+  /* transition-delay: 0.5s; */
+  background-color: #00ca4d;
+}
+
+.btn:hover::before {
+  width: 100%;
+}
+
+.btn::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 0;
+  width: 100%;
+  background-color: #ffc506;
+  transition: 0.4s ease;
+  z-index: -1;
+}
+
+.btn:hover::after {
+  height: 100%;
+  transition-delay: 0.4s;
+  color: aliceblue;
+}

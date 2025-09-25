@@ -1,0 +1,28 @@
+{
+  "reviews": [
+    {
+      "name": "John Doe",
+      "image": "https://placehold.co/400",
+      "profession": "Software Engineer",
+      "review": "I've been using ADNA Natural Baby Care products for my little one, and I'm amazed by the quality. The baby lotion is incredibly gentle on the skin, leaving it soft and moisturized all day long."
+    },
+    {
+      "name": "Jane Smith",
+      "image": "https://placehold.co/400",
+      "profession": "Graphic Designer",
+      "review": "As a graphic designer and a new mom, I pay close attention to the products I use for my baby. ADNA Natural Baby Care exceeds my expectations with its natural ingredients and gentle formula. Highly recommend!"
+    },
+    {
+      "name": "Alice Johnson",
+      "image": "https://placehold.co/400",
+      "profession": "Marketing Manager",
+      "review": "ADNA Natural Baby Care has become a staple in my household. The baby wash is tear-free and leaves my baby's skin feeling clean and soft. Plus, the soothing scent is just delightful!"
+    },
+    {
+      "name": "Jack Silon",
+      "image": "https://placehold.co/400",
+      "profession": "Data Analyst",
+      "review": "Being a data analyst means I value evidence-based decisions. ADNA Natural Baby Care's products are backed by natural ingredients and dermatologist-tested formulas. I trust them completely for my baby's skincare needs."
+    }
+  ]
+}
