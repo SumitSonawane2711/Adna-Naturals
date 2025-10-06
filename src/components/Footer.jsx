@@ -168,7 +168,7 @@ const Footer = () => {
                 information to third parties.
               </p>
               <p>
-                For concerns, please contact : <a className="text-blue-500" href="mailto:care@adnanaturals.com">care@adnanaturals.com</a>
+                For concerns, please contact : <a className="text-blue-500" href="mailto:contact@adnanaturals.com">contact@adnanaturals.com</a>
               </p>
             </div>
           </div>
