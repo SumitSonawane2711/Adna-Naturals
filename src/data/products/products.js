@@ -1,6 +1,7 @@
 import { FaLeaf, FaFlask, FaSeedling } from "react-icons/fa";
 
 const products = [
+  
   {
     id: "001",
     slug:'adna-naturals-milky-soft-baby-lotion-with-shea-butter-001',
@@ -181,7 +182,7 @@ const products = [
       "https://adnanaturals.com/assets/products/oil/101.jpg",
       "https://adnanaturals.com/assets/products/oil/102.JPG",
     ],
-    name: "ADNA Naturals Herbal Baby Massage Oil with Eladi Thailam, Olive OilNalpamaradhi ",
+    name: "ADNA Naturals Herbal Baby Massage Oil with Eladi Thailam, Olive Oil & Nalpamaradhi ",
     price: 399.00,
     mrp:839.00,
     category: "Massage",
@@ -695,6 +696,7 @@ const products = [
     jiomartUrl:"https://www.jiomart.com/p/groceries/adna-naturals-milky-soft-baby-lotion-by-dr-aarti-and-dr-namrata-with-shea-butter-calendula-deep-moisturizing-hypoallergenic-gentle-skincare-for-newborns-infants/611325673",
     }
   },
+
 ];
 
 export default products;

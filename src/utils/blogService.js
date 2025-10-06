@@ -1,7 +1,5 @@
 import blogs from '../generated/blogs.json';
 
-
-
 export const getAllBlogs = () => {
   return blogs;
 };
