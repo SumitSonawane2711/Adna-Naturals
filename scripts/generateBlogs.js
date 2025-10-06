@@ -3,6 +3,7 @@ import fs from 'fs/promises';
 import path from 'path';
 import matter from 'gray-matter';
 import { compile } from '@mdx-js/mdx';
+import remarkGfm from 'remark-gfm';
 
 async function generateBlogs() {
   const dataPath = path.join(process.cwd(), 'src/data/blogs');
@@ -18,8 +19,11 @@ async function generateBlogs() {
       const fileContent = await fs.readFile(path.join(dataPath, file), 'utf-8');
       const { content, data } = matter(fileContent);
 
-      // Compile MDX to a function body string for safe client-side rendering
-      const compiled = await compile(content, { outputFormat: 'function-body' });
+      // Compile MDX to a function body string with GFM (tables, task lists, etc.)
+      const compiled = await compile(content, {
+        outputFormat: 'function-body',
+        remarkPlugins: [remarkGfm],
+      });
 
       return {
         slug,

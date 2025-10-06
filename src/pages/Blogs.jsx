@@ -166,7 +166,7 @@ export default function Blogs() {
         <title>Blog - ADNA Naturals</title>
         <meta
           name="description"
-          content="Read tips, guides, and stories from ADNA Naturals."
+          content="Read tips, guides, and Blogs from ADNA Naturals."
         />
         <link rel="canonical" href={`https://adnanaturals.com/blog`} />
         <meta property="og:type" content="website" />
@@ -185,7 +185,7 @@ export default function Blogs() {
       </Helmet>
 
        <section className="text-center px-4 py-16 bg-gradient-to-b from-blue-400 via-blue-200 to-green-500">
-        <Heading>Our Blog</Heading>
+        <Heading>Our Blogs</Heading>
         <SubHeading>
           Explore helpful articles, tips, and insights for modern parents.
         </SubHeading>
@@ -227,7 +227,7 @@ export default function Blogs() {
         </div>
       </div>
 
-      <motion.div
+      {/* <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         className=""
@@ -240,9 +240,9 @@ export default function Blogs() {
           mother-daughter-paternal uncle's trio where a grandmother's intuition
           meets a mother's caring perspective.
         </p>
-      </motion.div>
+      </motion.div> */}
       
-      <section className="py-12 bg-white">
+      {/* <section className="py-12 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {babyCareTips.map((tip, index) => (
@@ -275,7 +275,7 @@ export default function Blogs() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Closing Section */}
       <section className="py-16 bg-green-50">
