@@ -1,7 +1,6 @@
 import Layout from "../components/Layout";
 import { Helmet } from "react-helmet-async";
 import { motion } from "framer-motion";
-import { FaLeaf, FaFlask, FaSeedling } from "react-icons/fa";
 
 const galleryItems = [
   {
@@ -109,6 +108,12 @@ const galleryItems = [
     src: "https://adnanaturals.com/assets/blessings/blessings3.mp4",
     alt: "Sample Nature Video",
   },
+  {
+    id: 17,
+    type: "video",
+    src: "https://adnanaturals.com/assets/blessings/adnanatural_blessings.mp4",
+    alt: "Sample Nature Video",
+  },
   
 ];
 
@@ -176,7 +181,7 @@ const Blessings = () => {
         className="max-w-5xl mx-4 sm:mx-auto  px-4 sm:px-6 lg:px-8 py-8 "
       >
         <p className="text-gray-800 text-justify font-semibold text-sm sm:text-base md:text-lg text-center">
-          The farmers are the backbone of our wellness. The farmers' dedication
+          The farmers are the backbone of our wellness. The farmers dedication
           to mother earth is the truest form of unconditional love as they work
           tirelessly in the sun and rains, day or night, to reach us
           health-wise, nurturing the very roots of our existence. We believe in
