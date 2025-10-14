@@ -1,13 +1,14 @@
 import Layout from "../components/Layout";
 import Carousel from "../components/home/Carousel.jsx";
-import { motion } from "framer-motion";
 import Banner from "../components/home/Banner.jsx";
 import Feature_products from "../components/home/Feature_products.jsx";
 import SpecialProducts from "../components/home/SpecialProducts.jsx";
 import BenefitsSection from "../components/home/BenefitsSection.jsx";
 import { Helmet } from "react-helmet-async";
 
+
 const Home = () => {
+ 
   return (
     <>
       <Helmet>
@@ -53,6 +54,7 @@ const Home = () => {
 
         {/* Benefits Section */}
         <BenefitsSection />
+        
 
         {/* Testimonial Section */}
         {/* <TestimonialSection /> */}
