@@ -10,9 +10,6 @@ import {
   Home,
   Star,
 } from "lucide-react";
-import { image } from "framer-motion/client";
-import { getAllBlogs } from "../utils/blogService";
-import { Link } from "react-router-dom";
 import { getBlogs } from "../utils/mdx";
 // Update the image import - using a placeholder
 // import babyImg from "../assets/baby.jpg";
@@ -141,7 +138,6 @@ const Babycare = () => {
     },
   ];
 
-  const blogs = getAllBlogs();
   const Allblogs = getBlogs()
   console.log(Allblogs);
 
@@ -205,22 +201,6 @@ const Babycare = () => {
         </motion.div>
       </motion.div>
 
-      {/* Tips Section */}
-      <section className="py-12 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div>
-            <h1>All Blogs</h1>
-            {blogs.map((blog) => (
-              <div key={blog.slug}>
-                <Link to={`/blog/${blog.slug}`}>
-                  <h2>{blog.frontmatter.title}</h2>
-                  <p>{blog.frontmatter.description}</p>
-                </Link>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       <section className="py-12 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -256,38 +236,7 @@ const Babycare = () => {
           </div>
         </div>
 
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {babyCareTips.map((tip, index) => (
-              <motion.div
-                key={tip.id}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: index * 0.1 }}
-                className={`rounded-lg border ${tip.borderColor} ${tip.color} p-5 shadow-sm hover:shadow-md transition-shadow duration-300`}
-              >
-                <div className="flex justify-center mb-4  border-2 border-white h-[300px] bg-whit-400 rounded-lg overflow-hidden">
-                  <img
-                    src={tip.image}
-                    alt="babycare tips"
-                    className="object-cover object-center w-full h-full"
-                  />
-                </div>
-
-                <div className="flex items-center my-3">
-                  {tip.icon}
-                  <h3 className="ml-3 text-lg md:text-xl font-semibold text-gray-800 leading-tight">
-                    {tip.title}
-                  </h3>
-                </div>
-                <p className="text-sm md:text-base text-gray-600">
-                  {tip.content}
-                </p>
-              </motion.div>
-            ))}
-          </div>
-        </div>
+        
       </section>
       
       {/* Closing Section */}
