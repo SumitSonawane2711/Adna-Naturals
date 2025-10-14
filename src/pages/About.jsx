@@ -180,7 +180,7 @@ const About = () => {
                 direct practices over generations till date.
               </p>
               <p className="text-gray-600 mb-4 text-sm sm:text-base">
-                For more than 10+ months of in-depth research (India/East
+                For more than 18+ months of in-depth research (India/East
                 Africa/USA) and looking into every minute details of the
                 whereabouts of earth friendly baby skin safe needs, ADNA Natural
                 is here. We have clinically tested the products and also are
