@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import { Heading } from "../components/heading";
 import { SubHeading } from "../components/subheading";
+import articles from "../data/articles/articles"; 
+
 import {
   Baby,
   Bath,
@@ -14,6 +16,7 @@ import {
   Zap,
 } from "lucide-react";
 import { motion } from "framer-motion";
+import FeaturedArticles from "../components/article";
 
 const babyCareTips = [
   {
@@ -184,7 +187,7 @@ export default function Blogs() {
         />
       </Helmet>
 
-       <section className="text-center px-4 py-16 bg-gradient-to-b from-blue-400 via-blue-200 to-green-500">
+      <section className="text-center px-4 py-16 bg-gradient-to-b from-blue-400 via-blue-200 to-green-500">
         <Heading>Our Blogs</Heading>
         <SubHeading>
           Explore helpful articles, tips, and insights for modern parents.
@@ -241,7 +244,7 @@ export default function Blogs() {
           meets a mother's caring perspective.
         </p>
       </motion.div> */}
-      
+
       {/* <section className="py-12 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -276,6 +279,8 @@ export default function Blogs() {
           </div>
         </div>
       </section> */}
+
+      <FeaturedArticles articles={articles} />
 
       {/* Closing Section */}
       <section className="py-16 bg-green-50">

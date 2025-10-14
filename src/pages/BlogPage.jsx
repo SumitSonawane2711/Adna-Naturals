@@ -3,8 +3,9 @@ import { Helmet } from "react-helmet";
 import { Fragment, jsx, jsxs } from "react/jsx-runtime";
 import  { useEffect, useMemo, useState } from "react";
 import { Baby, ArrowLeft } from "lucide-react";
-import ReactMarkdown from "react-markdown";
-import remarkGfm from "remark-gfm";
+import FeaturedArticles from "../components/article";
+import articles from "../data/articles/articles"; 
+
 
 function BlogPage() {
   const [blog, setBlog] = useState(null);
@@ -200,8 +201,11 @@ function BlogPage() {
         </section>
       )}
 
+      {/* Article Section  */}
+      <FeaturedArticles articles={articles} />
+
       {/* Closing Section */}
-      <section className="py-16 bg-green-50">
+      {/* <section className="py-16 bg-green-50">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="w-24 h-24 md:w-32 md:h-32 mx-auto mb-6 md:mb-8 rounded-full bg-green-200 flex items-center justify-center">
             <Baby className="w-12 h-12 md:w-16 md:h-16 text-green-700" />
@@ -217,7 +221,7 @@ function BlogPage() {
             Dr. Aarti Tolia, Dr. Namrata Shah & Mr. Tolia
           </p>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }
