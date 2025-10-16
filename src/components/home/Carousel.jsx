@@ -59,6 +59,7 @@ const Carousel = () => {
   }, [paginate]);
 
   return (
+    
     <div className="mb-14 mt-4 overflow-hidden ">
       <div className=" min-h-max lg:min-h-[400px] bg-re-300 relative  flex flex-col items-center">
         <motion.div

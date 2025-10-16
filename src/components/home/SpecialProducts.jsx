@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from "react";
+import  { useState, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ArrowRight, ZoomIn } from "lucide-react";
 import { useNavigate } from "react-router-dom";
@@ -187,7 +187,7 @@ const SpecialProducts = () => {
                         </div>
 
                         <button
-                          onClick={() => navigate(`/product/${product.id}`)}
+                          onClick={() => navigate(`/product/${product.slug}`)}
                           className="inline-flex items-center justify-center gap-2 bg-green-500 hover:bg-green-600 text-white py-3 px-6 rounded-lg transition-colors duration-300 w-full sm:w-auto"
                         >
                           <span>Explore Product</span>
