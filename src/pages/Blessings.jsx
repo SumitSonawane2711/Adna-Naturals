@@ -97,23 +97,73 @@ const galleryItems = [
   },
   {
     id: 16,
+    type: "image",
+    src: "https://adnanaturals.com/assets/blessings/11.jpg",
+    alt: "Sample Nature Video",
+  },
+  {
+    id: 17,
+    type: "image",
+    src: "https://adnanaturals.com/assets/blessings/12.jpg",
+    alt: "Sample Nature Video",
+  },
+  {
+    id: 18,
+    type: "image",
+    src: "https://adnanaturals.com/assets/blessings/13.jpg",
+    alt: "Sample Nature Video",
+  },
+  {
+    id: 19,
+    type: "image",
+    src: "https://adnanaturals.com/assets/blessings/14.jpg",
+    alt: "Sample Nature Video",
+  },
+  {
+    id: 20,
+    type: "image",
+    src: "https://adnanaturals.com/assets/blessings/15.jpg",
+    alt: "Sample Nature Video",
+  },
+   {
+    id: 21,
+    type: "image",
+    src: "https://adnanaturals.com/assets/blessings/16.jpg",
+    alt: "Sample Nature Video",
+  },
+   {
+    id: 22,
+    type: "image",
+    src: "https://adnanaturals.com/assets/blessings/17.jpg",
+    alt: "Sample Nature Video",
+  },
+   {
+    id: 23,
+    type: "image",
+    src: "https://adnanaturals.com/assets/blessings/18.jpg",
+    alt: "Sample Nature Video",
+  },
+  {
+    id: 24,
     type: "video",
     src: "https://adnanaturals.com/assets/blessings/blessings.mp4",
     alt: "Sample Nature Video",
   },
 
   {
-    id: 17,
+    id: 25,
     type: "video",
     src: "https://adnanaturals.com/assets/blessings/blessings3.mp4",
     alt: "Sample Nature Video",
   },
   {
-    id: 17,
+    id: 26,
     type: "video",
     src: "https://adnanaturals.com/assets/blessings/adnanatural_blessings.mp4",
     alt: "Sample Nature Video",
   },
+  
+  
   
 ];
 
