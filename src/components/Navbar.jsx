@@ -80,11 +80,11 @@ const Navbar = () => {
     };
   }, []);
 
-  const handleProductClick = (productId) => {
+  const handleProductClick = (productSlug) => {
     setSearchQuery("");
     setShowSearchResults(false);
     setIsSearchOpen(false);
-    navigate(`/product/${productId}`);
+    navigate(`/product/${productSlug}`);
   };
 
   const toggleSearch = () => {
@@ -164,7 +164,7 @@ const Navbar = () => {
                 <div
                   key={product.id}
                   className="p-3 border-b hover:bg-gray-50 cursor-pointer flex items-center"
-                  onClick={() => handleProductClick(product.id)}
+                  onClick={() => handleProductClick(product.slug)}
                 >
                   <div className="w-12 h-12 mr-3 flex-shrink-0">
                     <img 
